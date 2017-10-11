@@ -93,8 +93,8 @@ footer img
 footer a
 {
   display: inline-block;
-  /*margin : auto;
-  padding-left: 50px;*/
+  margin : auto;
+  padding-left: 50px;
 }
 
 .icone_footer
