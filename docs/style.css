@@ -1,0 +1,145 @@
+body
+{
+  background-image: url("image/background_wood_grey.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: #7A7A7A;
+}
+
+#inGrid
+{
+  display: grid;
+  grid-template-areas: "p d i s"
+                       "f f f f";
+  width: 90%;
+  min-width: 720px;
+  margin: auto;
+  margin-top: 200px;
+  border-radius:10px;
+}
+
+h1
+{
+  font-size: 2em;
+  font-family: Helvetica, sans-serif;
+  font-weight:bolder;
+  color: #fff;
+}
+
+h2
+{
+  font-size: 1em;
+  color:#fff;
+}
+
+p
+{
+  font-size: 0.8em;
+}
+
+span
+{
+  font-weight:bold;
+  line-height: 30px;
+}
+
+section
+{
+  padding:10px;
+}
+
+.photo
+{
+  grid-area:p;
+  background-color: #fdc82b;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.photo img
+{
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+  background-color: red;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.description
+{
+  grid-area:d;
+  background-color: #fdc82b;
+}
+
+.description p
+{
+  font-size:15px;
+}
+
+.infos
+{
+  grid-area:i;
+  background-color: #fdc82b;
+}
+
+.infos p
+{
+  grid-area:i;
+  background-color: #fdc82b;
+  margin-top: 5px;
+}
+
+.adresse
+{
+  margin-top:-10px;
+  font-size: 1em;
+}
+
+.mail, .phone
+{
+  font-size: 0.8em;
+}
+
+.social
+{
+  grid-area:s;
+  padding: 0;
+}
+
+.social img
+{
+  width: 50px;
+  padding-bottom:5px;
+}
+
+.social a
+{
+  display: block;
+}
+
+footer
+{
+  grid-area:f;
+  background-color: #fff;
+  width: 100%;
+  margin:auto;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+
+footer img
+{
+  width: 50px;
+}
+
+footer a
+{
+  display: inline-block;
+  margin : auto;
+  padding-right: 50px;
+}
+
+.icone_footer
+{
+  background-color: #fff;
+  margin-left: 180px;
+}
