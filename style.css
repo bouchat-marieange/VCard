@@ -1,0 +1,85 @@
+body
+{
+  background-image: url("image/background_wood_grey.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+span
+{
+  font-weight:bold;
+}
+
+#inGrid
+{
+  display: grid;
+  grid-template-areas: "p d i s"
+                       "f f f f";
+  width: 90%;
+  min-width: 720px;
+  margin: auto;
+  margin-top: 200px;
+  border-radius:10px;
+}
+
+section
+{
+  padding:5px;
+}
+
+.photo
+{
+  grid-area:p;
+  background-color: red;
+}
+
+.description
+{
+  grid-area:d;
+  background-color: yellow;
+}
+
+.infos
+{
+  grid-area:i;
+  background-color: green;
+}
+
+.social
+{
+  grid-area:s;
+  background-color: purple;
+}
+
+.social img
+{
+  width: 50px;
+}
+
+.social a
+{
+  display: block;
+}
+
+.footer
+{
+  grid-area:f;
+  background-color: blue;
+  width: 100%;
+}
+
+.footer img
+{
+  width: 50px;
+}
+
+.footer a
+{
+  display: inline-block;
+}
+
+footer a:hover
+{
+  color: aqua;
+}
