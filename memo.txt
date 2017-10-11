@@ -1,0 +1,14 @@
+VCard
+6-exercice-vcard-html (Exercice HTML-CSS - La Prairie)
+
+C8C8C8 gris clair icone
+7A7A7A gris foncé icone
+0029BF bleu icone
+
+gris clair footer
+gris foncé background
+
+<img src="IMAGE.png" onmouseover="this.src='IMAGEHOVER.png'" onmouseout="this.src='IMAGE.png'" />
+
+
+ 

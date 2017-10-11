@@ -6,11 +6,6 @@ body
   font-family: 'Roboto', sans-serif;
 }
 
-span
-{
-  font-weight:bold;
-}
-
 #inGrid
 {
   display: grid;
@@ -23,9 +18,24 @@ span
   border-radius:10px;
 }
 
+h1
+{
+  font-size: 2em;
+}
+
+h2
+{
+  font-size: 1em;
+}
+
+span
+{
+  font-weight:bold;
+}
+
 section
 {
-  padding:5px;
+  padding:10px;
 }
 
 .photo
@@ -46,6 +56,11 @@ section
   background-color: green;
 }
 
+.adresse
+{
+  margin-top:-18px;
+}
+
 .social
 {
   grid-area:s;
@@ -62,24 +77,29 @@ section
   display: block;
 }
 
-.footer
+footer
 {
   grid-area:f;
   background-color: blue;
   width: 100%;
+  margin:auto;
 }
 
-.footer img
+footer img
 {
   width: 50px;
 }
 
-.footer a
+footer a
 {
   display: inline-block;
+  /*margin : auto;
+  padding-left: 50px;*/
 }
 
-footer a:hover
+.icone_footer
 {
-  color: aqua;
+  background-color: #fff;
+  width: 90%;
+  margin:auto;
 }
