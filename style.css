@@ -11,8 +11,8 @@ body
 {
   display: grid;
   grid-template-areas: "p d i s"
-                       "f f f f";
-  width: 90%;
+                       "f f f l";
+  width: 80%;
   min-width: 720px;
   margin: auto;
   margin-top: 200px;
@@ -103,6 +103,7 @@ section
 {
   grid-area:s;
   padding: 0;
+  width: 50px;
 }
 
 .social img
@@ -114,6 +115,7 @@ section
 .social a
 {
   display: block;
+  width: 50px;
 }
 
 footer
